@@ -1,0 +1,57 @@
+/*
+Theme Name: Hotel CMS
+Author: Thomas Boulund Meng Hansennn
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+body.postid-53 {
+    background-color: #FFCC00;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/lobby.jpg);
+    background-size: 100%;
+    background-position: center center;
+    color: white;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2rem;
+}
+
+#hero h1 {
+    font-family: 'Grand Hotel', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 32px);
+}
+
+header {
+    height: 60px;
+    flex-shrink: 0;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #134c7d;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+  }
+
